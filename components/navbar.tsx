@@ -35,7 +35,11 @@ export default function Navbar() {
             d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
           />
         </svg>
-        <input type="search" placeholder="Search..." className="border-2 border-gray-300 pl-10 pr-4 py-2 text-gray-700 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500"/>
+        <input
+          type="search"
+          placeholder="Search..."
+          className="border-2 border-gray-300 pl-10 pr-4 py-2 text-gray-700 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
       </div>
       <div className="hidden lg:flex items-center justify-center">
         <button className="bg-[#265B9D] text-white font-bold rounded-xl px-4 py-2 transition hover:bg-[#0F1F3E] flex items-center">
