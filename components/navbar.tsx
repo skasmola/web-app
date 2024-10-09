@@ -1,9 +1,9 @@
 import { NAV_LINKS } from "@/constants";
 import { AnimatePresence, motion } from "framer-motion";
+import { ChevronRightIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { CheckIcon, ChevronRightIcon } from "lucide-react";
 
 import { AnimatedSubscribeButton } from "@/components/ui/animated-subscribe-button";
 
@@ -11,7 +11,7 @@ export default function Navbar() {
   const [hoveredKey, setHoveredKey] = useState("");
 
   return (
-    <nav className="flex justify-between max-container padding-container relative z-30 p-5 shadow-md">
+    <nav className="sticky top-0 flex justify-between max-container padding-container z-30 p-5 shadow-md bg-white">
       <Link href="/">
         <Image src="/assets/logo.png" height={40} width={250} alt="Logo" />
       </Link>
@@ -53,7 +53,7 @@ export default function Navbar() {
                         <li className="py-2 flex items-center">
                           {item.icon && <item.icon className="mr-2" />}
                           <Link
-                            href="#"
+                            href={item.href}
                             key={index}
                             className="text-black text-lg font-extralight cursor-pointer transition-all hover:font-semibold whitespace-nowrap"
                           >

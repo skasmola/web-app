@@ -33,7 +33,7 @@ type NavLink = {
 
 export const NAV_LINKS: NavLink[] = [
   {
-    href: "/",
+    href: "/about-us",
     key: "aboutus",
     label: "About us",
     dropdown: [
@@ -53,7 +53,7 @@ export const NAV_LINKS: NavLink[] = [
     ],
   },
   {
-    href: "/",
+    href: "/services",
     key: "services",
     label: "Services",
     dropdown: [
@@ -125,10 +125,10 @@ export const NAV_LINKS: NavLink[] = [
       },
     ],
   },
-  { href: "/", key: "clients", label: "Clients" },
-  { href: "/", key: "vehicles", label: "Vehicles" },
+  { href: "/clients", key: "clients", label: "Clients" },
+  { href: "/vehicles", key: "vehicles", label: "Vehicles" },
   {
-    href: "/",
+    href: "/careers",
     key: "careers",
     label: "Careers",
     dropdown: [
