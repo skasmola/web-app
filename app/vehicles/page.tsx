@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Vehicles = () => {
-  return (
-    <div>
-      Vehicles Page.
-    </div>
-  )
-}
+  return <div>Vehicles Page.</div>;
+};
 
-export default Vehicles
+export default Vehicles;

@@ -5,7 +5,7 @@ import React from "react";
 
 interface AnimatedSubscribeButtonProps {
   buttonColor: string;
-  buttonHoverColor?: string,
+  buttonHoverColor?: string;
   buttonTextColor?: string;
   text: React.ReactElement | string;
 }

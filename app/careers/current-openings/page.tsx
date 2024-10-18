@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const CurrentOpenings = () => {
-  return (
-    <div>
-      This is Current Openings page.
-    </div>
-  )
-}
+  return <div>This is Current Openings page.</div>;
+};
 
-export default CurrentOpenings
+export default CurrentOpenings;
