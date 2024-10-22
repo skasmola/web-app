@@ -9,7 +9,7 @@ import Services from "@/components/Services";
 
 export default function Page() {
   return (
-    <>
+    <div className="flex flex-col">
       <Hero />
       <Services />
       <Customers />
@@ -18,6 +18,6 @@ export default function Page() {
       <Industry />
       <Partner />
       <Careers />
-    </>
+    </div> 
   );
 }

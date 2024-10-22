@@ -1,9 +1,9 @@
 import { NAV_LINKS } from "@/constants";
 import { AnimatePresence, motion } from "framer-motion";
-import { ChevronRightIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 
 import { AnimatedSubscribeButton } from "@/components/ui/animated-subscribe-button";
 
@@ -98,7 +98,7 @@ export default function Navbar() {
           text={
             <span className="group inline-flex items-center text-md">
               CONNECT{" "}
-              <ChevronRightIcon className="ml-1 transition-transform duration-300 group-hover:translate-x-1" />
+              <ChevronRightIcon fontSize="medium" className="ml-1 transition-transform duration-300 group-hover:translate-x-1"/>
             </span>
           }
         />
