@@ -18,6 +18,6 @@ export default function Page() {
       <Industry />
       <Partner />
       <Careers />
-    </div> 
+    </div>
   );
 }
