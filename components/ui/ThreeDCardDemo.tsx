@@ -20,9 +20,7 @@ export function ThreeDCardDemo() {
             />
           </CardItem>
           <CardItem translateZ={20} className="mt-5">
-            <h2 className="mb-5 font-bold text-2xl">
-              FEDERAL CUSTOMERS
-            </h2>
+            <h2 className="mb-5 font-bold text-2xl">FEDERAL CUSTOMERS</h2>
             <ul className="list-inside flex flex-col gap-1">
               <li className="font-thin gap-3">
                 <DoneAllIcon /> Centers for Medicare and Medicaid Services
@@ -52,9 +50,7 @@ export function ThreeDCardDemo() {
             />
           </CardItem>
           <CardItem translateZ={20} className="mt-5">
-            <h2 className="mb-5 font-bold text-2xl">
-              STATE AGENCIES
-            </h2>
+            <h2 className="mb-5 font-bold text-2xl">STATE AGENCIES</h2>
             <ul className="list-inside flex flex-col gap-1">
               <li className="font-thin gap-3">
                 <DoneAllIcon /> Maryland – Health Benefit Exchange
@@ -87,9 +83,7 @@ export function ThreeDCardDemo() {
             />
           </CardItem>
           <CardItem translateZ={20} className="mt-5">
-            <h2 className="mb-5 font-bold text-2xl">
-              OTHER CUSTOMERS
-            </h2>
+            <h2 className="mb-5 font-bold text-2xl">OTHER CUSTOMERS</h2>
             <ul className="list-inside flex flex-col gap-1">
               <li className="font-thin gap-3">
                 <DoneAllIcon /> AISIN Holdings
