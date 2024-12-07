@@ -97,12 +97,15 @@ export default function AboutUs() {
         <div className="h-px bg-black my-4"></div>
         <div className="grid grid-cols-3 gap-3 mt-6">
           <div className="flex flex-col items-center p-2 gap-5">
-            <h2 className="text-[#265B9D] font-bold text-3xl">CUSTOMER SATISFACTION</h2>
+            <h2 className="text-[#265B9D] font-bold text-3xl">
+              CUSTOMER SATISFACTION
+            </h2>
             <p className="mt-5 font-bold text-xl text-center">
               “Design quantum leaps of improvement for Client’s Business”
             </p>
             <p className="text-center font-extralight text-xl">
-              We deliver solutions and services of superior quality that consistently meet or exceed the expectations of our customers.
+              We deliver solutions and services of superior quality that
+              consistently meet or exceed the expectations of our customers.
             </p>
           </div>
           <div className="flex flex-col items-center p-2 gap-5">
@@ -113,7 +116,9 @@ export default function AboutUs() {
               “Implement management model to align with Innosoft Mission”
             </p>
             <p className="text-center font-extralight text-xl">
-              We believe inspirational leadership brings excellence and continuous improvement. We demand that our leadership adds value to the solutions and services we deliver.
+              We believe inspirational leadership brings excellence and
+              continuous improvement. We demand that our leadership adds value
+              to the solutions and services we deliver.
             </p>
           </div>
           <div className="flex flex-col items-center p-2 gap-5">
@@ -124,7 +129,9 @@ export default function AboutUs() {
               “Caring is part of Innosoft’s Spirit and Culture”
             </p>
             <p className="text-center font-extralight text-xl">
-              Although demands of IT industry are considerable, This should not have any conflict with very humane and caring approach that Innosoft take in all relationships that we foster.
+              Although demands of IT industry are considerable, This should not
+              have any conflict with very humane and caring approach that
+              Innosoft take in all relationships that we foster.
             </p>
           </div>
         </div>
@@ -136,7 +143,11 @@ export default function AboutUs() {
               “Power of Working together”
             </p>
             <p className="text-center font-extralight text-xl">
-              Teamwork is vital to reaching our potential. We align ourselves with the goals and objectives of the company, and we are committed to open and honest communications among ourselves, our customers and our partners.</p>
+              Teamwork is vital to reaching our potential. We align ourselves
+              with the goals and objectives of the company, and we are committed
+              to open and honest communications among ourselves, our customers
+              and our partners.
+            </p>
           </div>
           <div className="flex flex-col items-center p-2 gap-5">
             <h2 className="text-[#265B9D] font-bold text-3xl text-center">
@@ -146,11 +157,12 @@ export default function AboutUs() {
               “Making a difference through Creativity”
             </p>
             <p className="text-center font-extralight text-xl">
-              Innosoft Vision is fulfilled every day through the constant effort of our staff to produce high quality work by Inspiring Innovation.</p>
+              Innosoft Vision is fulfilled every day through the constant effort
+              of our staff to produce high quality work by Inspiring Innovation.
+            </p>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
-    
