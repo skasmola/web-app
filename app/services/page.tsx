@@ -6,11 +6,10 @@ export default function Services() {
   return (
     <div className="box-border">
       <section
-        className="bg-[#1A457C] text-white mt-0 flex flex-row items-center p-24 mb-24 bg-no-repeat"
+        className="bg-[#1A457C] text-white mt-0 flex flex-col items-center p-24 mb-24 bg-no-repeat"
         style={{
           backgroundImage: "url('assets/services-icon.png')",
           backgroundPosition: "95% 50%",
-          backgroundSize: "225px",
         }}
       >
         <h2 className="text-4xl font-bold m-auto">SERVICES</h2>
