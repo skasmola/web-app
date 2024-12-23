@@ -138,6 +138,11 @@ export default function Internship() {
           <img src="/assets/Desired.png" alt="Desired Skills" />
         </div>
       </section>
+      <p className="mt-10 text-center font-extralight text-2xl">
+        To apply, please send a resume and cover letter to{" "}
+        <b className="font-semibold underline">hr@innosoft.com</b> with the
+        subject line <b className="font-bold">‘HBCU Internship’.</b>
+      </p>
     </div>
   );
 }
