@@ -10,11 +10,11 @@ export default function Footer() {
   return (
     <footer className="mt-auto">
       <div className="flex justify-between items-center p-4 md:p-10 lg:p-20 flex-col gap-8 lg:flex-row flex-wrap">
-        <img src="assets/cmmidev.png" alt="CMMI image" />
-        <img src="assets/iso-2013.png" alt="ISO-13 image" />
-        <img src="assets/iso-2015.png" alt="ISO-15 image" />
-        <img src="assets/iso-2018.png" alt="ISO-18 image" />
-        <img src="assets/cmmisvc.png" alt="SVC image" />
+        <img src="/assets/cmmidev.png" alt="CMMI image" />
+        <img src="/assets/iso-2013.png" alt="ISO-13 image" />
+        <img src="/assets/iso-2015.png" alt="ISO-15 image" />
+        <img src="/assets/iso-2018.png" alt="ISO-18 image" />
+        <img src="/assets/cmmisvc.png" alt="SVC image" />
       </div>
       <div
         className="pt-24 pb-16 text-white"
