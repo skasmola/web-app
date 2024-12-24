@@ -9,6 +9,13 @@ export default function Hero() {
           alt="Home Image"
           className="w-full h-full object-cover"
         />
+        <video
+          src="/assets/adobestock_365579861.mov"
+          autoPlay
+          loop
+          muted
+          className="absolute inset-0 w-full h-full object-cover"
+        />
         <div className="absolute inset-0 flex flex-col justify-center items-center text-white">
           <h2 className="text-6xl font-extralight mb-10">
             INSPIRING DIGITAL TRANSFORMATION
