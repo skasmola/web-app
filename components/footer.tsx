@@ -70,7 +70,10 @@ export default function Footer() {
         <Link href="#" className="text-white py-4 font-thin">
           Terms of Service
         </Link>
-        <Link href="#" className="text-white py-4 font-thin">
+        <Link
+          href="/modern-slavery-statement"
+          className="text-white py-4 font-thin"
+        >
           Modern Slavery Statement
         </Link>
         <Link href="#" className="text-white py-4 font-thin">
