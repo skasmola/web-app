@@ -64,7 +64,7 @@ export default function Footer() {
         <Link href="#" className="text-white py-4 font-thin">
           Privacy Policy
         </Link>
-        <Link href="#" className="text-white py-4 font-thin">
+        <Link href="/sustainability-policy" className="text-white py-4 font-thin">
           Sustainability Policy
         </Link>
         <Link href="#" className="text-white py-4 font-thin">
