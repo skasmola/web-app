@@ -61,10 +61,13 @@ export default function Footer() {
         </div>
       </div>
       <div className="flex justify-center flex-row bg-black items-center gap-20">
-        <Link href="#" className="text-white py-4 font-thin">
+        <Link href="/privacy-policy" className="text-white py-4 font-thin">
           Privacy Policy
         </Link>
-        <Link href="/sustainability-policy" className="text-white py-4 font-thin">
+        <Link
+          href="/sustainability-policy"
+          className="text-white py-4 font-thin"
+        >
           Sustainability Policy
         </Link>
         <Link href="#" className="text-white py-4 font-thin">
