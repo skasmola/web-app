@@ -70,7 +70,7 @@ export default function Footer() {
         >
           Sustainability Policy
         </Link>
-        <Link href="#" className="text-white py-4 font-thin">
+        <Link href="/terms-of-service" className="text-white py-4 font-thin">
           Terms of Service
         </Link>
         <Link
