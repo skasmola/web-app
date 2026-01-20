@@ -1,8 +1,12 @@
-"use client";
-
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import "../styles/globals.css";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Innosoft - Digital Transformation Leaders",
+  description: "Leader in health care’s digital transformation...",
+}
 
 export default function RootLayout({
   children,

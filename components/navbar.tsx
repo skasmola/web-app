@@ -1,3 +1,5 @@
+"use client";
+
 import { NAV_LINKS } from "@/constants";
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";

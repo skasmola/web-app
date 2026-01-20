@@ -64,3 +64,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .text-style {
+    @apply text-sm md:text-base lg:text-lg;
+  }
+}

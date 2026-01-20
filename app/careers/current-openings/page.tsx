@@ -99,6 +99,21 @@ export default function CurrentOpenings() {
         </button>
       </section>
       {/* Jobs API */}
+      <section className="w-3/4 mx-auto flex flex-col gap-10 mb-24">
+        <div className="border border-slate-200 rounded-lg p-5 shadow-sm hover:shadow-md transition duration-300 ease cursor-pointer">
+          <h3 className="text-2xl font-semibold mb-2">
+            Senior Software Engineer
+          </h3>
+          <p className="text-style text-slate-700 mb-4">
+            Location: Remote | Job Type: Full Time
+          </p>
+          <p className="text-style text-slate-600">
+            We are looking for a Senior Software Engineer to join our dynamic
+            team. The ideal candidate will have extensive experience in software
+            development and a passion for building innovative solutions.
+          </p>
+        </div>
+      </section>
     </div>
   );
 }

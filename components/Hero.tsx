@@ -4,10 +4,12 @@ export default function Hero() {
   return (
     <section className="flex flex-col xl:flex-row mb-36">
       <div className="relative w-full h-[500px]">
-        <img
+        <Image
           src="/assets/bg-top-video.jpg"
           alt="Home Image"
-          className="w-full h-full object-cover"
+          fill
+          priority
+          className="object-cover"
         />
         <video
           src="/assets/adobestock_365579861.mov"

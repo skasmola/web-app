@@ -36,7 +36,7 @@ export default function Careers() {
           of technology and work with our mission-focused customers to solve
           some of the world’s most challenging problems.{" "}
         </p>
-        <a href="/current-openings" className="mt-5">
+        <a href="careers/current-openings" className="mt-5">
           <button className="bg-gray-500 px-5 py-2 rounded-lg text-white hover:bg-gray-700">
             Search Current Openings
           </button>
